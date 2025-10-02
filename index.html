@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folkedrabet i Rwanda 1994 - Interaktiv Tidslinje</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Folkedrabet i Rwanda 1994</h1>
+            <p class="subtitle">En interaktiv tidslinje over 100 dage der ændrede verdenshistorien</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="number">~800.000</span>
+                    <span class="label">Dræbte</span>
+                </div>
+                <div class="stat">
+                    <span class="number">100</span>
+                    <span class="label">Dage</span>
+                </div>
+                <div class="stat">
+                    <span class="number">75%</span>
+                    <span class="label">Af tutsierne</span>
+                </div>
+            </div>
+        </header>
+
+        <nav class="timeline-nav">
+            <button class="nav-btn active" data-period="before">Før 1994</button>
+            <button class="nav-btn" data-period="april">April 1994</button>
+            <button class="nav-btn" data-period="may">Maj-Juni</button>
+            <button class="nav-btn" data-period="july">Juli 1994</button>
+            <button class="nav-btn" data-period="aftermath">Eftervirkninger</button>
+        </nav>
+
+        <div class="timeline-container">
+            <!-- Before 1994 Events -->
+            <div class="timeline-period active" data-period="before">
+                <h2>Baggrunden (Pre-1994)</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-event="colonial">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1897-1962</div>
+                            <h3>Kolonitiden</h3>
+                            <p>Tysk og belgisk kolonistyre skaber etniske skel mellem hutuer og tutsier. Belgiske myndigheder opererer ud fra raceteori om tutsiernes overlegenhed.</p>
+                            <div class="details hidden">
+                                <p><strong>Nøglefaktorer:</strong></p>
+                                <ul>
+                                    <li>1918: Tyskland taber WWI, Belgien overtager Rwanda</li>
+                                    <li>1920erne: Belgiske reformer koncentrerer magt hos tutsierne</li>
+                                    <li>1926: Magtstrukturen på lokalt niveau ændres drastisk</li>
+                                    <li>1933: Etniske identitetskort indføres baseret på fysiske målinger</li>
+                                </ul>
+                                <p><em>"Tutsierne blev anset for at ligne europæerne mere og derfor være mere intelligente"</em></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="revolution">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1959</div>
+                            <h3>Hutu-revolutionen</h3>
+                            <p>Hutuerne gennemfører et magtskifte og overtager kontrollen fra tutsierne. Mange tutsier flyrer og mister deres jord.</p>
+                            <div class="details hidden">
+                                <p>Dette magtskifte lagde fundamentet for de efterfølgende årtiers undertrykkelse af tutsierne og skabte grundlaget for den senere racistiske retorik om at "tutsierne ville have magten tilbage".</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="independence">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1962</div>
+                            <h3>Rwandas uafhængighed</h3>
+                            <p>Rwanda bliver uafhængigt med hutuerne ved magten. Tutsierne forbliver undertrykt.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="economic-crisis">
+                        <div class="timeline-marker crisis"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1980-1993</div>
+                            <h3>Økonomisk krise</h3>
+                            <p>Dramatisk økonomisk nedtur gør befolkningen modtagelig for ekstremistisk propaganda.</p>
+                            <div class="details hidden">
+                                <p><strong>Økonomiske nøgletal:</strong></p>
+                                <ul>
+                                    <li>BNP per indbygger faldt 40% (1989-1993)</li>
+                                    <li>Fra 330 til 200 dollar per person</li>
+                                    <li>Kaffeprisernes fald ramte Rwandas hovedeksport</li>
+                                    <li>1992: Gæld på over 870 mio. dollar</li>
+                                    <li>1988-89: Tørke kostede 300+ liv</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="rpf-invasion">
+                        <div class="timeline-marker war"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Oktober 1990</div>
+                            <h3>RPF's invasion</h3>
+                            <p>Tutsi-oprørshæren Rwandas Patriotiske Front (RPF) angriber fra Uganda, hvilket intensiverer konflikten.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="hutu-commandments">
+                        <div class="timeline-marker propaganda"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">December 1990</div>
+                            <h3>De Ti Hutu-Bud</h3>
+                            <p>Avisen Kangura publicerer "Hutu Ten Commandments" - et racistisk manifest der opfordrer til total adskillelse fra tutsierne.</p>
+                            <div class="details hidden">
+                                <p><strong>Nøglepunkter fra De Ti Bud:</strong></p>
+                                <ul>
+                                    <li>"Enhver hutu skal vide at en tutsi-kvinde arbejder for sin etniske gruppe"</li>
+                                    <li>"Alle strategiske positioner skal kun tildeles hutuer"</li>
+                                    <li>"Hutuer skal stoppe med at have medlidenhed med tutsierne"</li>
+                                    <li>Opfordring til at sprede hutu-ideologien på alle niveauer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="rtlm">
+                        <div class="timeline-marker propaganda"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Sommer 1993</div>
+                            <h3>RTLM radiostationen etableres</h3>
+                            <p>Radio Television des Mille Collines begynder at sende populær musik blandet med hadefulde budskaber mod tutsierne.</p>
+                            <div class="details hidden">
+                                <p>Skabt af historikeren Ferdinand Nahimana, blev RTLM hurtigt populær blandt hutu-befolkningen. Stationen kaldte tutsierne for "kakerlakker" og opfordrede til deres udryddelse. Da 60% af befolkningen var analfabeter, var radioen deres primære nyhedskilde.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="arusha">
+                        <div class="timeline-marker peace"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">August 1993</div>
+                            <h3>Arusha-fredsaftalen</h3>
+                            <p>Fredsaftale mellem regeringen og RPF om magtdeling, men ekstremistiske hutuer modsætter sig aftalen.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="warning">
+                        <div class="timeline-marker warning"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">11. januar 1994</div>
+                            <h3>Dallaires advarsel</h3>
+                            <p>FN-general Romeo Dallaire sender fax til FN og advarer om planlagt folkedrab, men får afvist anmodning om handling.</p>
+                            <div class="details hidden">
+                                <p>Dallaire blev informeret af en informant om planer om at dræbe tutsierne og belgiske FN-soldater. Han anmodede om tilladelse til at konfiskere våbenlagre, men FN afviste dette med henvisning til det begrænsede mandat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- April 1994 Events -->
+            <div class="timeline-period" data-period="april">
+                <h2>April 1994 - Folkedrabets begyndelse</h2>
+                <div class="timeline">
+                    <div class="timeline-item critical" data-event="assassination">
+                        <div class="timeline-marker genocide"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">6. april 1994</div>
+                            <h3>Attentatet - Folkedrabets startskud</h3>
+                            <p>Præsident Habyarimanas fly skydes ned ved landing i Kigali. Mindre end en time senere etableres vejspærringer i hele byen.</p>
+                            <div class="details hidden">
+                                <p><strong>Tidsforløb 6. april:</strong></p>
+                                <ul>
+                                    <li>Ca. 20:30: Flyet ramt af to missiler</li>
+                                    <li>Ca. 21:30: Vejspærringer etableret af Interahamwe og præsidentens garde</li>
+                                    <li>Samme nat: Systematiske drab på identificerede tutsierne begynder</li>
+                                </ul>
+                                <p><em>"Hastigheden peger på, at folkedrabet var omhyggeligt planlagt"</em></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item critical" data-event="first-36-hours">
+                        <div class="timeline-marker genocide"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">6-7. april 1994</div>
+                            <h3>De første 36 timer</h3>
+                            <p>Fremtrædende oppositionspolitikere, journalister og borgerrettighedsforkæmpere dræbes systematisk efter på forhånd udarbejdede lister.</p>
+                            <div class="details hidden">
+                                <p>Ti belgiske FN-soldater der beskyttede premierminister Agathe Uwilingiyimana blev tortureret og hakket ihjel med macheter. Dette påvirkede dramatisk FN's vilje til at intervenere.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="spread">
+                        <div class="timeline-marker genocide"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">8-15. april 1994</div>
+                            <h3>Folkedrabet spreder sig</h3>
+                            <p>Fra Kigali spreder massakrerne sig til hele landet. Kirker bliver drabssteder da tutsierne søger tilflugt der.</p>
+                            <div class="details hidden">
+                                <p>RTLM radio opfordrer lyttere til at ringe ind og oplyse hvor tutsierne gemmer sig. Identitetskorttene gør det nemt at identificere ofrene ved vejspærringerne.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="un-withdrawal">
+                        <div class="timeline-marker abandonment"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">21. april 1994</div>
+                            <h3>FN reducerer styrken</h3>
+                            <p>FN's Sikkerhedsråd beslutter at reducere UNAMIR-styrken til kun 270 mand midt under folkedrabet.</p>
+                            <div class="details hidden">
+                                <p>Belgien trak sine soldater hjem efter drabet på de ti soldater. USA og andre lande var ikke villige til at erstatte dem, særligt efter USA's erfaringer i Somalia 1993.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="murambi">
+                        <div class="timeline-marker massacre"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">21-26. april 1994</div>
+                            <h3>Murambi massakren</h3>
+                            <p>65.000 tutsierne lokkes til Murambi tekniske skole med løfte om fransk beskyttelse. Omkring 20.000 dræbes.</p>
+                            <div class="details hidden">
+                                <p>Den lokale borgmester og biskop lokkede tutsierne til skolen. Vand- og elforsyningen blev afbrudt for at svække ofrene. I fem dage forsvarede de sig med sten, før Interahamwe brød ind og begyndte massakren.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- May-June 1994 Events -->
+            <div class="timeline-period" data-period="may">
+                <h2>Maj-Juni 1994 - International respons</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-event="us-directive">
+                        <div class="timeline-marker political"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">3. maj 1994</div>
+                            <h3>Amerikanske direktiv PDD-25</h3>
+                            <p>Præsident Clinton udsteder direktiv om at USA ikke vil engagere sig i humanitære operationer medmindre det er i amerikanske interesser.</p>
+                            <div class="details hidden">
+                                <p>Clinton forbød sine embedsmænd at blive orienteret om situationen i Rwanda. Først 21. maj 1994 fik amerikanske embedsmænd tilladelse til at bruge ordet "folkedrab" internt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="satellite">
+                        <div class="timeline-marker media"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">28. maj 1994</div>
+                            <h3>Satellit-forbindelse genetableret</h3>
+                            <p>RPF erobrer Kigalis internationale lufthavn og skaber sikker satellit-forbindelse, så journalister kan rapportere direkte.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="france-intervenes">
+                        <div class="timeline-marker intervention"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Juni 1994</div>
+                            <h3>Opération Turquoise</h3>
+                            <p>Frankrig sender 2.500 soldater, 700 køretøjer og 8.000 tons militært materiel til Rwanda.</p>
+                            <div class="details hidden">
+                                <p><strong>Kontroversiel intervention:</strong></p>
+                                <ul>
+                                    <li>Officielt formål: Oprette sikre zoner og stoppe folkedrabet</li>
+                                    <li>Reddede over 10.000 menneskeliv ifølge officielle tal</li>
+                                    <li>Kritik: Hjalp gerningsmændene med at flygte til Congo</li>
+                                    <li>Arresterede ikke en eneste gerningsmand</li>
+                                    <li>RPF så Frankrig som del af problemet, ikke løsningen</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- July 1994 Events -->
+            <div class="timeline-period" data-period="july">
+                <h2>Juli 1994 - Folkedrabets afslutning</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-event="rpf-victory">
+                        <div class="timeline-marker victory"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Juli 1994</div>
+                            <h3>RPF erobrer Kigali</h3>
+                            <p>Rwandas Patriotiske Front indtager hovedstaden og bringer folkedrabet til ophør efter 100 dage.</p>
+                            <div class="details hidden">
+                                <p>RPF's sejr markerede afslutningen på folkedrabet, men også begyndelsen på en massiv flygtningestrøm af hutuer til nabolandene, særligt Congo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aftermath Events -->
+            <div class="timeline-period" data-period="aftermath">
+                <h2>Eftervirkninger</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-event="clinton-visit">
+                        <div class="timeline-marker political"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">25. marts 1998</div>
+                            <h3>Clintons undskyldning</h3>
+                            <p>USA's præsident besøger Rwanda og giver officiel undskyldning for amerikansk passivitet under folkedrabet.</p>
+                            <div class="details hidden">
+                                <p><em>"Det må synes besynderligt for jer her - specielt de mange af jer, som har mistet familiemedlemmer - men rundtomkring i verden sad der folk som mig på kontorer dag efter dag, som ikke fuldt ud forstod dybden og hastigheden af den uforstelige terror, som I blev opslugt af."</em> - Bill Clinton</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="tribunal">
+                        <div class="timeline-marker justice"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">December 2003</div>
+                            <h3>Mediedømme</h3>
+                            <p>Det Internationale Krigsforbrydertribunal dømmer tre mediepersonligheder for folkedrab gennem ord og propaganda.</p>
+                            <div class="details hidden">
+                                <p><strong>Dømte:</strong></p>
+                                <ul>
+                                    <li>Ferdinand Nahimana (RTLM grundlægger)</li>
+                                    <li>Hassan Ngeze (Kangura ejer/redaktør)</li>
+                                    <li>Georges Ruggiu (belgisk journalist, 12 års fængsel)</li>
+                                </ul>
+                                <p><em>"Uden brug af skydevåben, machete eller noget andet fysisk våben, var I skyld i drabene på tusindvis af uskyldige civile."</em> - Tribunalet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-event="macron">
+                        <div class="timeline-marker investigation"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2019</div>
+                            <h3>Fransk selvransagelse</h3>
+                            <p>Præsident Emmanuel Macron nedsætter undersøgelseskommission om Frankrigs rolle i Rwanda 1990-1994.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="witness-testimonies">
+            <h2>Øjenvidneberetninger</h2>
+            <div class="testimony-container">
+                <div class="testimony active" data-witness="gloriose">
+                    <h3>Gloriose - Overlevende tutsi-student</h3>
+                    <blockquote>
+                        <p>"Efter præsidentens død kom morderne til vores hus. De kastede granater ind i vores hus mens vi prøvede at flygte, hvilket sårede os alle sammen. De tog så deres macheter og dræbte mine forældre og tre af mine søskende."</p>
+                        <cite>- Gloriose, 19 år gammel under folkedrabet</cite>
+                    </blockquote>
+                    <div class="testimony-details">
+                        <p>Gloriose var førsteårs gymnasieelev da folkedrabet brød ud. Hun overlevede sammen med fem søskende efter at have været gemt i en dal med 15.000 andre flygtninge. Kun hun og søskendene overlevede - alle andre i deres gruppe blev dræbt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-factors">
+            <h2>Nøglefaktorer bag folkedrabet</h2>
+            <div class="factors-grid">
+                <div class="factor">
+                    <h3>🏛️ Kolonial arv</h3>
+                    <p>Belgiske etniske identitetskort og racialisering af hutu-tutsi forholdet</p>
+                </div>
+                <div class="factor">
+                    <h3>📉 Økonomisk krise</h3>
+                    <p>40% fald i levestandard (1989-1993) skabte desperation</p>
+                </div>
+                <div class="factor">
+                    <h3>📻 Propaganda</h3>
+                    <p>RTLM radio og Kangura avis dehumaniserede tutsierne som "kakerlakker"</p>
+                </div>
+                <div class="factor">
+                    <h3>🤝 Politisk krise</h3>
+                    <p>Modstand mod magtdeling med RPF efter Arusha-aftalen</p>
+                </div>
+                <div class="factor">
+                    <h3>🌍 International passivitet</h3>
+                    <p>FN, USA og andre lande undlod at gribe ind</p>
+                </div>
+                <div class="factor">
+                    <h3>⚔️ Militarisering</h3>
+                    <p>Interahamwe-milits og våbendistribution til civilbefolkningen</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Baseret på historiske kilder og øjenvidneberetninger fra folkedrabet i Rwanda 1994</p>
+            <p><em>"Never Again" - Aldrig mere</em></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
